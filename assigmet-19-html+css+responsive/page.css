@@ -1,0 +1,327 @@
+
+    * {
+      margin: 0%;
+      padding: 0%;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: sans-serif;
+    }
+    
+    .upbox1 {
+      background-color: lightblue;
+    }
+    .box1 {
+      display: flex;
+      width: 65%;
+      margin: auto;
+      justify-content: center;
+      justify-items: center;
+      gap: 40px;
+      align-items: center;
+      color: white;
+    }
+    @media only screen and (max-width: 768px) {
+      .box1 {
+        width: 90%;
+      }
+      .box1 .box12 h1 {
+        font-size: 36px;
+      }
+    }
+    .box1 p {
+      font-size: larger;
+    }
+    .box1 div img {
+      width: 350px;
+      height: 450px;
+    }
+    .box1 p {
+      line-height: 25px;
+    }
+    .box1 button {
+      background-color: #F1C50D;
+      padding: 15px 30px;
+      border-radius: 30px;
+      border: 1px solid #F1C50D;
+      margin-top: 30px;
+      color: white;
+    }
+    .box1 h1 {
+      font-size: 50px;
+      padding-bottom: 20px;
+    }
+    .box12 {
+      width: 40%;
+    }
+    .box2 {
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+      align-items: center;
+      font-size: x-large;
+      width: 70%;
+      margin: auto;
+      gap: 60px;
+      background-color: #2DBA6A;
+      color: white;
+      padding-bottom: 50px;
+    }
+    .box2 h2 {
+      font-size: 35px;
+
+    }
+    .box2 p {
+      font-weight: bold;
+      padding: 40px 0px 20px 0px;
+    }
+    .box2 div {
+      width: 30%;
+    }
+    .box2 img {
+      border-radius: 200px;
+
+    }
+    .box2 ul {
+      line-height: 35px;
+      padding-top: 200px;
+      list-style: none;
+    }
+    li span {
+      font-weight: bolder;
+      font-size: larger;
+      color: rgb(9, 125, 219);
+    }
+    @media only screen and (max-width: 768px) {
+      .box21 h2 {
+        font-size: 30px;
+      }
+      .box21 p {
+        font-size: large;
+      }
+      .box2 {
+        gap: 25px;
+        width: 90%;
+        margin: auto;
+      }
+      .box2 div {
+        width: 440px;
+        font-size: 20px;
+      }
+      .box2 ul {
+        font-size: 15px;
+        width: 50%;
+        line-height: 50px;
+      }
+      .box21 {
+        width: 250px;
+      }
+    }
+    #box3 {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      width: 70%;
+      margin: auto;
+    
+      gap: 10px;
+      margin-bottom: 50px;
+    }
+    @media only screen and (max-width: 786px) {
+      #box3 {
+        display: grid;
+        gap: 20px;
+        column-gap: 10px;
+        grid-template-columns: auto auto;
+        width: 90%;
+        margin: auto;
+      }
+      section .upblock {
+        width: 90%;
+        margin: auto;
+      }
+    }
+    .upblock {
+      width: 70%;
+      margin: auto;
+      line-height: 40px;
+      padding: 20px 0px;
+    }
+    .block {
+      padding: 20px;
+      background-color: rgb(233, 232, 232);
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+      align-items: start;
+
+      width: 90%;
+      padding-bottom: 40px;
+
+    }
+    .block h5 {
+      font-size: 17px;
+      padding-bottom: 10px;
+    }
+    .block > p {
+      background-color: #F1C50D;
+      padding: 0px;
+      border-radius: 30px;
+      font-size: x-large;
+      width: 20%;
+      text-align: center;
+    }
+    .para{
+      background-color: #F1C50D;
+      padding: 0px;
+      border-radius: 30px;
+      font-size: x-large;
+      width: 16%;
+      text-align: center;
+    }
+    .block div p {
+      line-height: 25px;
+    }
+    .box4 {
+      display: flex;
+      justify-content: center;
+     
+      gap: 20px;
+      align-items: normal;
+      width: 68%;
+      margin: auto;
+      margin-bottom: 40px;
+    }
+    .box41 {
+      line-height: 25px;
+      width: 70%;
+    }
+    .upbox4 {
+      width: 70%;
+      margin: auto;
+      line-height: 40px;
+    }
+    @media only screen and (max-width: 786px) {
+      .box4 {
+        display: block;
+        width: 80%;
+      }
+      .upbox4 {
+        width: 90%;
+        margin: auto;
+      }
+      .box4 img {
+        float: right;
+        width: 60%;
+        height: 400px;
+        padding-bottom: 40px;
+      }
+    }
+    .box5 {
+      display: grid;
+      grid-template-columns: auto auto auto;
+
+      row-gap: 50px;
+      width: 68%;
+      margin: auto;
+      margin-bottom: 50px;
+    }
+    .box52 {
+      width: 85%;
+    }
+    @media only screen and (max-width: 786px) {
+      .box5 {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 30px;
+      }
+    }
+    .box52 h4 {
+      padding: 20px 20px 15px 15px;
+    }
+    .box52 p {
+      padding-left: 15px;
+      line-height: 25px;
+    }
+    .box52 button {
+      margin-left: 15px;
+      margin-top: 10px;
+      padding: 10px 25px;
+      background-color: #F1C50D;
+      border: 1px solid #F1C50D;
+      border-radius: 20px;
+      font-weight: bold;
+      color: white;
+    }
+    .pos {
+      position: relative;
+    }
+    .pos2 {
+      position: absolute;
+      bottom: 15px;
+      left: 10px;
+      background-color: white;
+      padding: 05px;
+      border-radius: 25px;
+    }
+    .box7 {
+      display: flex;
+
+      width: 80%;
+      margin: auto;
+      flex-wrap: wrap;
+      gap: 60px;
+      align-items: center;
+      color: white;
+    }
+    .box72 {
+      width: 180px;
+      flex: 1 0 20%;
+    }
+    @media only screen and (max-width: 786px) {
+      .box72 {
+        flex: 1 0 30%;
+      }
+    }
+    .box72 p {
+      line-height: 20px;
+      font-size: small;
+    }
+    .box72 img {
+      border-radius: 60px;
+    }
+    .box72 h5 {
+      font-size: large;
+    }
+    .bottom {
+      background-image: url(images/image/img_4.jpg);
+      background-size: cover;
+      text-align: center;
+      padding: 120px;
+    }
+    .bottom1 {
+      background-color: white;
+      padding: 20px;
+      width: 40%;
+      margin: auto;
+      font-size: x-large;
+    }
+    @media only screen and (max-width: 786px) {
+      .bottom1 {
+        width: 60%;
+        margin: auto;
+      }
+    }
+    .bottom1 h3 {
+      color: #2DBA6A;
+      padding-bottom: 20px;
+    }
+    .footer {
+      background-color: rgb(61, 60, 60);
+      line-height: 70px;
+      text-align: center;
+      color: white;
+      padding: 30px 0px 0px 0px;
+    }
